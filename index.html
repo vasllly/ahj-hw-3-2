@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AHJ-HW-3-2</title>
+<link href="main.css" rel="stylesheet"></head>
+<body>
+  <div data-widget="filter-widget">
+    <form>
+      <label>TOP tasks<input data-id="filter-text" name="filter-text"></label>
+      <button data-action="filter" class="hidden">Ok</button>
+    </form>
+    <p class="alert hidden">Поле ввода пусто!</p>
+  </div>
+  <h2>Pinned:</h2>
+  <p class="pinned">No pinned tasks</p>
+  <ul data-section="pin-task-list">
+  </ul>
+  <h2>All task:</h2>
+  <p class="all-task">No tasks found</p>
+  <ul data-section="all-task-list">
+  </ul>
+<script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
